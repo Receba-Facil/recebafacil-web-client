@@ -1,0 +1,14 @@
+Step 1:
+Change version in package.json
+
+Step 2:
+yarn build
+
+Step 3:
+In archive dist/index.d.ts, export default _default and add export * from './interfaces';
+
+Step 4:
+yarn login
+
+Step 5:
+yarn publish

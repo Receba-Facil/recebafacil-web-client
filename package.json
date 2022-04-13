@@ -1,0 +1,29 @@
+{
+  "name": "recebafacil-web-client",
+  "version": "0.1.0",
+  "description": "A Javascript library to interface with Fpay API",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "tsnd --transpile-only --respawn --ignore-watch node_modules src/index.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "Receba Fácil",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.10.0",
+    "@typescript-eslint/parser": "^4.10.0",
+    "eslint": "^7.15.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^7.0.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.3.0",
+    "prettier": "^2.2.1",
+    "ts-node-dev": "^1.1.1",
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "axios": "^0.26.1"
+  }
+}
